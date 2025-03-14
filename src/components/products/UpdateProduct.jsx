@@ -121,7 +121,7 @@ function UpdateProduct() {
                 <div className="campo">
                     <label>Image:</label>
                     { image ? (
-                        <img src={`${process.env.REACT_APP_BACKEND}${image}`} alt={name} width="300"/>
+                        <img src={`${process.env.REACT_APP_BACKEND_URL}${image}`} alt={name} width="300"/>
                     ) : null }
                     <input type="file" name="image" onChange={handleArchive}/>
                 </div>

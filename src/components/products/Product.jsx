@@ -54,7 +54,7 @@ function Product({product,onDelete}) {
                 <p className="nombre">{name}</p>
                 <p className="precio">{price}</p>
                 { image ? (
-                    <img src={`${process.env.REACT_APP_BACKEND}/${image}`} alt={name}/>
+                    <img src={`${process.env.REACT_APP_BACKEND_URL}/${image}`} alt={name}/>
                 ): null}
             </div>
             <div className="acciones">
